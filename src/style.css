@@ -1,0 +1,143 @@
+.posts_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3%;
+    padding: 30px;
+    box-sizing:border-box;
+    row-gap: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.post_container {
+    border: 1px solid rgb(219, 215, 215);
+    padding: 10px;
+    height: 260px;
+}
+
+.reaction_container,
+.tag_container {
+    display: flex;
+    gap: 16px;
+}
+
+.tag {
+    margin-top: -1px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(148, 141, 141);
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.button_container {
+    text-align: right;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(148, 141, 141);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    margin: 12px;
+    font-size: 14px;
+    width: 120px;
+}
+
+
+.crt_btn {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 75px;
+    height: 40px;
+    font-weight: 500;
+}
+
+
+
+.form_container {
+    width: 60%;
+    border: 1px solid rgb(219, 215, 215);
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+#title,
+#body,
+#tags {
+    width: 90%;
+    display: block;
+    margin: 5px;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#search {
+    width: 70%;
+    height: 48px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    outline: none;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+#body {
+    height: 150px;
+}
+
+#create_title {
+    text-align: center;
+    color: rgb(70, 64, 64);
+}
+
+.post {
+    margin: 15px;
+}
+
+.tc {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.t {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    color: rgb(95, 93, 93);
+    border: 1px solid #ccc;
+}
+
+.clk_btn {
+    background-color: rgb(148, 141, 141);
+    color: #fff;
+}
+
+.disclk_btn {
+    background-color: #fff;
+    color: rgb(95, 93, 93);
+    border: 1px solid #ccc;
+}
+
+.loadmore{
+    margin-top:30px;
+    margin-left:38px;
+}
